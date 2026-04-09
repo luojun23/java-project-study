@@ -49,7 +49,7 @@ public class MinioService {
             if (originalFilename != null && originalFilename.contains(".")) {
                 extension = originalFilename.substring(originalFilename.lastIndexOf("."));//.jpg
             }
-            String fileName = UUID.randomUUID().toString().replace("-", "") + extension;//f105837b1849437ebb6c1dd8792661c9.jpg
+            String fileName = "default_img" + extension;//f105837b1849437ebb6c1dd8792661c9.jpg
 
             // 上传文件
             InputStream inputStream = file.getInputStream();
@@ -154,4 +154,6 @@ public class MinioService {
             log.info("存储桶创建成功: {}", bucketName);
         }
     }
+
+
 }
