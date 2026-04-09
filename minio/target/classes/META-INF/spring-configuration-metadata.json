@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "server.minio",
+      "type": "com.njtech.minio.config.MinioConfig",
+      "sourceType": "com.njtech.minio.config.MinioConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "server.minio.access-key",
+      "type": "java.lang.String",
+      "sourceType": "com.njtech.minio.config.MinioConfig"
+    },
+    {
+      "name": "server.minio.bucket-name",
+      "type": "java.lang.String",
+      "sourceType": "com.njtech.minio.config.MinioConfig"
+    },
+    {
+      "name": "server.minio.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "com.njtech.minio.config.MinioConfig"
+    },
+    {
+      "name": "server.minio.secret-key",
+      "type": "java.lang.String",
+      "sourceType": "com.njtech.minio.config.MinioConfig"
+    }
+  ],
+  "hints": []
+}
