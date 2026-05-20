@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/springcloud-study.iml" filepath="$PROJECT_DIR$/.idea/springcloud-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java-project-study.iml" filepath="$PROJECT_DIR$/.idea/java-project-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitMq/rabbitMq.iml" filepath="$PROJECT_DIR$/rabbitMq/rabbitMq.iml" />
     </modules>
   </component>
 </project>
