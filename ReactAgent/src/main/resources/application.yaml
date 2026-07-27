@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: ReactAgent
+
+# application.yml
+  ai:
+    dashscope:
+      api-key: sk-87233d5f1eaa445480b1648b183645be
